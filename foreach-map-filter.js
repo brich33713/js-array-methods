@@ -10,7 +10,7 @@ Examples:
 */
 function doubleValues(arr){
     let doubles = [];
-    for(let x of arr){
+    arr.map(x => {
         doubles.push(x * 2);
     }
     return doubles;
